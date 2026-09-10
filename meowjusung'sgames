@@ -1,0 +1,14 @@
+pixelarcade/
+├── index.html
+├── style.css
+├── app.js
+├── games/
+│   ├── snake.html
+│   ├── pong.html
+│   ├── flappy.html
+│   ├── memory.html
+│   ├── click-rush.html
+│   ├── dodge.html
+│   ├── archer.html
+│   └── drift.html
+└── assets/
