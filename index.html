@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MeowJusung Games</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar"><a class="logo" href="index.html"><span>🐱</span> MeowJusung Games</a><div class="top-actions"><button id="themeBtn" title="Toggle theme">🌙</button></div></header>
+<main>
+<section class="hero"><div><p class="eyebrow">YOUR FREE GAME HUB</p><h1>Play something fun.</h1><p class="sub">Fast, simple browser games — no downloads required.</p><div class="hero-actions"><button class="primary" onclick="document.getElementById('games').scrollIntoView({behavior:'smooth'})">🎮 Browse games</button><button class="secondary" onclick="randomGame()">🎲 Random game</button></div></div><div class="hero-cat">😺</div></section>
+<section class="toolbar"><div><h2 id="games">Games</h2><span id="count" class="muted"></span></div><input id="search" placeholder="Search games…" aria-label="Search games"></section>
+<section id="grid" class="grid"></section>
+<section class="coming"><h2>More games coming</h2><p>Classic arcade, puzzle, racing, sports and strategy games will be added here over time.</p></section>
+</main>
+<footer>© 2026 MeowJusung Games · Built for the web</footer>
+<script src="app.js"></script>
+</body></html>
